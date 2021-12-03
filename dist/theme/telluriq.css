@@ -4,8 +4,7 @@
  *
  * This theme is Copyright (C) 2012-2013 Owen Versteeg, http://owenversteeg.com - it is MIT licensed.
  */
-@import "https://overpass-30e2.kxcdn.com/overpass.css";
-@import "https://overpass-30e2.kxcdn.com/overpass-mono.css";
+@import "https://cdn.jsdelivr.net/gh/rfl890/inter@main/inter.min.css";
 .reveal a {
   line-height: 1.3em;
 }
@@ -23,14 +22,14 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: linear-gradient(62deg, #ffc2a0 0%, #f0f0a5 39%, #fdfbe7 88%);
-  --r-main-font: overpass-mono, Palatino, FreeSerif, serif;
+  --r-background-color: #111111;
+  --r-main-font: Black, Palatino, FreeSerif, serif;
   --r-main-font-size: 32px;
-  --r-main-color: #000;
+  --r-main-color: #FEFEFE;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: overpass, Palatino, FreeSerif, serif;
-  --r-heading-color: #383D3D;
+  --r-heading-font: Inter Black, Palatino, FreeSerif, serif;
+  --r-heading-color: #fff;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: none;
@@ -42,15 +41,15 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-heading3-size: 1.55em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
-  --r-link-color: #51483D;
-  --r-link-color-dark: #25211c;
-  --r-link-color-hover: #8b7c69;
+  --r-link-color: #F87A7A;
+  --r-link-color-dark: #f43131;
+  --r-link-color-hover: #fddbdb;
   --r-selection-background-color: #26351C;
   --r-selection-color: #fff;
 }
 
 .reveal-viewport {
-  background: linear-gradient(62deg, #ffc2a0 0%, #f0f0a5 39%, #fdfbe7 88%);
+  background: #111111;
   background-color: var(--r-background-color);
 }
 
